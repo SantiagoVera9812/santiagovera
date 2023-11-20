@@ -1,0 +1,36 @@
+{
+
+  "/UsuarioVotante/Agregar":{
+    "target": "http://localhost:8080",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  },
+
+  "/UsuarioVotante/Lista":{
+    "target": "http://localhost:8080",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  },
+
+  "/public/autenticacion-usuario":{
+
+    "target": "http://localhost:8081",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+
+  },
+
+  "/public/tokenUser":{
+
+    "target": "http://localhost:8080",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+
+  }
+
+
+}

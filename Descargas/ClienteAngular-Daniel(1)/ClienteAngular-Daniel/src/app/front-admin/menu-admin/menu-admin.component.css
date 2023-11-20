@@ -1,0 +1,16 @@
+button {
+  border-radius: 4px;
+  width: 30%;
+  float: left;
+}
+
+div {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 100%;
+}

@@ -1,0 +1,24 @@
+<p><br><br></p>
+<div *ngIf="track">
+  <div>
+    <div>
+      <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+        <div class="form-group">
+          <label>Title: </label>
+          <input type="text" class="form-control" id="title" name="title" [(ngModel)]="track.title" required>
+        </div>
+        <div class="form-group">
+          <label>Duration: </label>
+          <input type="time" class="form-control" id="duration" name="duration" [(ngModel)]="track.duration" required>
+        </div>
+        <div class="form-group">
+          <label>Album: </label>
+        </div>
+        <button mat-stroked-button [disabled]="!f.valid">
+          Actualizar</button>
+        <button mat-stroked-button routerLink="/menu-admin-cancion">
+          Volver</button>
+      </form>
+    </div>
+  </div>
+</div>

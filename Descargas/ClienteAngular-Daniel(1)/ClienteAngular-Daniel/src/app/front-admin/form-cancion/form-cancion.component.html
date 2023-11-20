@@ -1,0 +1,17 @@
+<mat-card>
+    <mat-card-title></mat-card-title>
+    <mat-card-content>
+      <form [formGroup]="trackForm" (ngSubmit)="onSubmit()">
+        <p><mat-form-field appearance="fill">
+          <mat-label>Title</mat-label>
+          <input placeholder="title" type="text" matInput formControlName="title" placeholder="">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+          <mat-label>Duration</mat-label>
+          <input placeholder="duration" type="time" matInput formControlName="duration" placeholder="">
+        </mat-form-field>
+        <button mat-stroked-button type="submit">Agregar</button></p>
+      </form>
+    </mat-card-content>
+  </mat-card>

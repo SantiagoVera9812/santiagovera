@@ -1,0 +1,11 @@
+button {
+    border-radius: 4px;
+    width: 100%;
+  }
+  p{
+    width: 100%;
+    align-items: center;
+  }
+  mat-form-field{
+    width: 25%;
+  }
