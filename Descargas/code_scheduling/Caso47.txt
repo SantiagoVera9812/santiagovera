@@ -1,0 +1,11 @@
+act_0 1 2
+act_1 1 2
+act_2 1 2
+act_3 0 1
+act_4 1 2
+act_5 1 2
+act_6 0 2
+act_7 1 2
+act_8 0 1
+act_9 0 2
+act_10 1 2
